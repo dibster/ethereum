@@ -1,0 +1,23 @@
+## Specifically for the top of the repo, ignore any IDE configuration files.
+## The intent is that the subprojects should and will have IDE configuration
+## files that *will not* be ignored by this rule.  If you copy this file into
+## a project directory, remove this line.
+.idea/**
+
+*.log
+
+## Local configuration file for Procfile based apps
+.env
+
+## Slightly better way to express than the shell glob
+**/node_modules
+**/bower_components
+
+## OS X generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
